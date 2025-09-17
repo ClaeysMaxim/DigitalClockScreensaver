@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#00ff88">
+</head>
+
+<body>
+    <div class="clock">
+
+        <!-- Hier komt de klok -->
+        <div class="clock__display">
+            <div id="time" class="clock__time"></div>
+            <div id="ampm" class="clock__ampm"></div>
+        </div>
+
+        <!-- Toggle switch voor 24u/12u -->
+        <div class="clock__toggle">
+            <span class="clock__toggle-label">24u</span>
+            <label class="clock__toggle-switch">
+                <input type="checkbox" id="timeFormat" class="clock__toggle-input">
+                <span class="clock__toggle-slider"></span>
+            </label>
+            <span class="clock__toggle-label">12u</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

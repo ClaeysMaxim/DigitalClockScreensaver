@@ -1,0 +1,49 @@
+{
+  "name": "digital-clock-screensaver",
+  "version": "1.0.0",
+  "description": "Een elegante digitale klok screensaver met multi-monitor support",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": {
+    "appId": "com.digitalclock.screensaver",
+    "productName": "Digital Clock Screensaver",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "src/**/*"
+    ],
+    "win": {
+      "target": {
+        "target": "dir",
+        "arch": [
+          "x64"
+        ]
+      }
+    }
+  },
+  "keywords": [
+    "electron",
+    "screensaver",
+    "clock",
+    "digital-clock",
+    "multi-monitor",
+    "fullscreen"
+  ],
+  "author": "Jouw Naam <jouw.email@example.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jouw-username/digital-clock.git"
+  },
+  "homepage": "https://github.com/jouw-username/digital-clock#readme",
+  "devDependencies": {
+    "electron": "^38.1.1",
+    "electron-builder": "^26.0.12"
+  }
+}
