@@ -92,4 +92,4 @@ This project is licensed under the ISC License.
 
 ## 👨‍💻 Author
 
-Made with ❤️ by [Your Name]
+Made by Claeys Maxim
