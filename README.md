@@ -48,7 +48,8 @@ npm run build
 
 After building, you'll find the executable in the `dist/` folder:
 - 📁 Navigate to `dist/` folder
-- 🚀 Look for `Digital Clock Screensaver.exe`
+- Open the `win-unpacked` folder
+- Look for `Digital Clock.exe`
 - 💡 **Tip**: Create a desktop shortcut for easy access!
 
 ## ⌨️ Usage
